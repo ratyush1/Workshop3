@@ -1,0 +1,15 @@
+D:\.netWorkshop3\workshop3\Task4\bin\Debug\net9.0\Task4.exe
+D:\.netWorkshop3\workshop3\Task4\bin\Debug\net9.0\Task4.deps.json
+D:\.netWorkshop3\workshop3\Task4\bin\Debug\net9.0\Task4.runtimeconfig.json
+D:\.netWorkshop3\workshop3\Task4\bin\Debug\net9.0\Task4.dll
+D:\.netWorkshop3\workshop3\Task4\bin\Debug\net9.0\Task4.pdb
+D:\.netWorkshop3\workshop3\Task4\obj\Debug\net9.0\Task4.GeneratedMSBuildEditorConfig.editorconfig
+D:\.netWorkshop3\workshop3\Task4\obj\Debug\net9.0\Task4.AssemblyInfoInputs.cache
+D:\.netWorkshop3\workshop3\Task4\obj\Debug\net9.0\Task4.AssemblyInfo.cs
+D:\.netWorkshop3\workshop3\Task4\obj\Debug\net9.0\Task4.csproj.CoreCompileInputs.cache
+D:\.netWorkshop3\workshop3\Task4\obj\Debug\net9.0\Task4.sourcelink.json
+D:\.netWorkshop3\workshop3\Task4\obj\Debug\net9.0\Task4.dll
+D:\.netWorkshop3\workshop3\Task4\obj\Debug\net9.0\refint\Task4.dll
+D:\.netWorkshop3\workshop3\Task4\obj\Debug\net9.0\Task4.pdb
+D:\.netWorkshop3\workshop3\Task4\obj\Debug\net9.0\Task4.genruntimeconfig.cache
+D:\.netWorkshop3\workshop3\Task4\obj\Debug\net9.0\ref\Task4.dll
