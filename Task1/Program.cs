@@ -1,5 +1,5 @@
 ﻿
-Console.WriteLine("=== TASK 1: Operators ===");
+Console.WriteLine("TASK 1: Operators ");
 
 Operators ops = new Operators();
 
