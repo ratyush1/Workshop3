@@ -1,40 +1,101 @@
-﻿Console.Write("Enter a number: ");
-int N = Convert.ToInt32(Console.ReadLine());
-int sum = 0;
-for (int i = 1; i <= N; i++)
+﻿using System;
+
+class Program
 {
-    sum += i;
-}
-
-Console.WriteLine("Sum from 1 to " + N + " is: " + sum);
-
-
-int i = 1;
-
-while (i <= 20)
-{
-    if (i % 4 == 0)
+    static void Main(string[] args)
     {
-        i++;
-        continue; 
+       
+        {
+            Console.Write("Enter a number: ");
+            int N = Convert.ToInt32(Console.ReadLine());
+            int sum = 0;
+
+            for (int i = 1; i <= N; i++)
+            {
+                sum += i;
+            }
+
+            Console.WriteLine("Sum from 1 to " + N + " is: " + sum);
+        }
+
+        Console.WriteLine();
+      
+        {
+            int j = 1;
+
+            while (j <= 20)
+            {
+                if (j % 4 == 0)
+                {
+                    j++;
+                    continue; 
+                }
+
+                if (j == 15)
+                {
+                    break; 
+                }
+
+                Console.WriteLine(j);
+                j++;
+            }
+        }
+
+        Console.WriteLine(); 
+
+      
+        {
+            int[] numbers = { 2, 4, 6, 8, 10 };
+            int total = 0;
+
+            foreach (int num in numbers)
+            {
+                total += num;
+            }
+
+            Console.WriteLine("Sum of array elements: " + total);
+        }
+
+        Console.WriteLine(); // Blank line for readability
+
+        // -------------------- TASK 6 : TRY-CATCH-FINALLY --------------------
+
+        // 1️⃣ Try-Catch-Finally - Handle invalid number input
+        {
+            try
+            {
+                Console.Write("Enter a number: ");
+                int num = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("You entered: " + num);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid number format");
+            }
+            finally
+            {
+                Console.WriteLine("Program Executed");
+            }
+        }
+
+        Console.WriteLine(); 
+        {
+            try
+            {
+                Console.Write("Enter your password: ");
+                string password = Console.ReadLine();
+
+                if (password.Length < 6)
+                {
+                    throw new Exception("Password must be at least 6 characters.");
+                }
+
+                Console.WriteLine("Password satisfied the requirement.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
     }
-
-    if (i == 15)
-    {
-        break;
-    }
-
-    Console.WriteLine(i);
-    i++;
 }
-
-
-int[] numbers = { 2, 4, 6, 8, 10 };
-int total = 0;
-
-foreach (int num in numbers)
-{
-    total += num;
-}
-
-Console.WriteLine("Sum of array elements: " + total);
